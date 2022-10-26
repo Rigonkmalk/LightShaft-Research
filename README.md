@@ -72,6 +72,7 @@ Example file I use :
 
 Ytyp file used for research (MLO) :
 `x64h.rpf\levels\gta5\interiors\v_int_44.rpf\v_int_44.ytyp`
+`update\x64\dlcpacks\mpimportexport\dlc.rpf\x64\levels\gta5\interiors\impexp_intwaremed.rpf\imp_impexp_intwaremed.ytyp`
 
 ```xml
 <Item type="CExtensionDefLightShaft">
