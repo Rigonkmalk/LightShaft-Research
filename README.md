@@ -1,7 +1,9 @@
 **Extension Light Shaft :**
 
-![[Pasted image 20221007154343.png]]
-Create a plane of a certain size on 4 vertex points (like a portal) to emit a "ray of light" over a certain distance
+![image](https://user-images.githubusercontent.com/12967235/194576246-bf5a261a-d215-4a50-9ce6-99f020843322.png)
+Create a plane of a certain size on 4 vertex points (like a portal) to emit a "ray of light" over a certain distance in a MLO
+
+Based on ![https://github.com/Skylumz/Sollumz/blob/main/cwxml/ymap.py](https://github.com/Skylumz/Sollumz/blob/main/cwxml/ymap.py) xml conversion
 
 ```python
 
@@ -65,10 +67,11 @@ class ExtensionLightShaft(Extension):
 
 ```
 
+Example file I use :
+`x64h.rpf\levels\gta5\interiors\v_int_44.rpf\v_44_1_daught_deta_ns.ydr`
 
-Example file :
-
-v_44_1_daught_deta_ns.ydr
+Ytyp file used for research (MLO) :
+`x64h.rpf\levels\gta5\interiors\v_int_44.rpf\v_int_44.ytyp`
 
 ```xml
 <Item type="CExtensionDefLightShaft">
@@ -79,11 +82,14 @@ v_44_1_daught_deta_ns.ydr
      <cornerC x="2.05518913" y="0.592075646" z="0.730999" />
      <cornerD x="2.05518913" y="0.8164527" z="0.730999" />
  ```
- ![[Pasted image 20221007160200.png]]
+ 
+![image](https://user-images.githubusercontent.com/12967235/194576352-589eabfe-6480-4fff-b019-ac7fd02ea5aa.png)
+
 ```xml
 <direction x="-0.819751143" y="-0.413016081" z="-0.396769136" />
 ```
-![[Pasted image 20221007154904.png]]
+
+![image](https://user-images.githubusercontent.com/12967235/194576388-6d405edb-e3c0-426c-ba78-218425dc54c6.png)
 ```xml
      <directionAmount value="1" />
      <length value="2.439765" /> <!-- Length of the shaft in the given direction -->
