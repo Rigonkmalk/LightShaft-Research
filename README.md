@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/12967235/194576246-bf5a261a-d215-4a50-9ce6-99f020843322.png)
 Create a plane of a certain size on 4 vertex points (like a portal) to emit a "ray of light" over a certain distance in a MLO
 
-Based on ![https://github.com/Skylumz/Sollumz/blob/main/cwxml/ymap.py](https://github.com/Skylumz/Sollumz/blob/main/cwxml/ymap.py) xml conversion
+Based on ![ymap.py from Sollumz](https://github.com/Skylumz/Sollumz/blob/main/cwxml/ymap.py) xml conversion
 
 ```python
 
@@ -125,3 +125,9 @@ List of volumeType :
 
 - LIGHTSHAFT_VOLUMETYPE_SHAFT
 - LIGHTSHAFT_VOLUMETYPE_CYLINDER# LightShaft-Research
+
+# Credits
+
+Dexyfex for [Codewalker](https://github.com/dexyfex/CodeWalker)
+Skylumz for [Sollumz](https://github.com/Skylumz/Sollumz)
+Huge thanks for the first PoC from Sanhje [Website](https://sanhje.net/)
